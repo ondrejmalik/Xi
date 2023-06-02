@@ -5,18 +5,17 @@
                                 echo "<a class='nav-item nav-link' href='/login'>Login</a>";
                             }
                             if(!isset($_SESSION["user_id"])) {
-                                                    echo "<a class='nav-item nav-link' href='/register'>Register</a>";
-                                                }
-                                                 if(isset($_SESSION["user_id"])) {
-                                                                                                                echo "<a class='nav-item nav-link' href='/logout'>LogOut</a>";
-                                                                                                            }
+                                echo "<a class='nav-item nav-link' href='/register'>Register</a>";
+                           }
+                           if(isset($_SESSION["user_id"])) {
+                                echo "<a class='nav-item nav-link' href='/logout'>Logout</a>";
+                                }
                             ?>
     </ul>
     <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
 </footer>
 <style>
     #footer {
-        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;

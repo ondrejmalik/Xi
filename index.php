@@ -18,14 +18,14 @@ switch ($request) {
     case '/login/logme':
         $redirect = '/views/login/logme.php';
         break;
-    case '/courses':
-        $redirect = '/views/courses.php';
+    case '/pong':
+        $redirect = '/views/pong.php';
         break;
-    case '/views/authors':
-        $redirect = '/views/authors.php';
+    case '/adofai':
+        $redirect = '/views/adofai.php';
         break;
-    case '/about':
-        $redirect = '/views/aboutus.php';
+    case '/api':
+        $redirect = '/views/api.php';
         break;
         case '/logout':
                 $_SESSION = array();

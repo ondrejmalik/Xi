@@ -1,7 +1,6 @@
 <?php if ($_SESSION["user_name"]) {
-    echo "<div>Logged as " . $_SESSION['user_name']."</div><br>";
+    echo "<h2 id='userLoginText'>Logged as " . $_SESSION['user_name']."</h2><br>";
 } ?>
-<p>Welcome to the platform.</p>
   <div class="px-4 py-5 my-5 text-center">
     <img class="d-block mx-auto mb-4" src="../assets/home-icon.png" alt="" width="128" height="128">
     <h1 class="display-5 fw-bold text-body-emphasis">Home Page</h1>
@@ -10,8 +9,10 @@
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <div class="button-container">
           <div>
-            <button class="btn btn-primary" id="menu-button">Game 1</button>
-            <button class="btn btn-secondary" id="menu-button">Game 2</button>
+            <button class="btn btn-primary" id="menu-button" onclick="location.href='/pong'">Pong</button>
+
+            <button class="btn btn-primary" id="menu-button" onclick="location.href='/adofai'">Adofai</button>
+
           </div>
         </div>
       </div>
@@ -25,12 +26,15 @@
         align-items: center;
       }
       #menu-button {
-        margin: 0 20px;
+        margin: 20px;
         width: 150px;
         height: 50px;
         transition: all 0.3s ease-in-out;
       }
       #menu-button:hover {
             transform: scale(1.1);
-            }  
+            }
+        #userLoginText{
+         margin : 15px;
+        } 
     </style>
