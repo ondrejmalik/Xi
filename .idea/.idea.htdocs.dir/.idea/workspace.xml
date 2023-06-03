@@ -5,24 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca4ec763-391d-4cd7-826c-049676e90bc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/views/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/codestream.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources/ffb9d896-5e6d-4fd3-b0ad-033b62fdc358.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources/ffb9d896-5e6d-4fd3-b0ad-033b62fdc358.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources/ffb9d896-5e6d-4fd3-b0ad-033b62fdc358/storage_v2/_src_/schema/sakila.oXLGyQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources/ffb9d896-5e6d-4fd3-b0ad-033b62fdc358/storage_v2/_src_/schema/sakila.oXLGyQ.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources/ffb9d896-5e6d-4fd3-b0ad-033b62fdc358/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/dataSources/ffb9d896-5e6d-4fd3-b0ad-033b62fdc358/storage_v2/_src_/schema/sys.zb4BAA.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/aboutus.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/authors.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pong.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/core/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/core/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/core/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/core/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/courses.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/adofai.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="10015" />
+    <option name="totalTimeSeconds" value="12669" />
     <option name="idleThresholdMs" value="2000" />
   </component>
   <component name="Git.Settings">
@@ -76,10 +65,18 @@
       <command value="open" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.test.html">
     <configuration name="127.0.0.1" type="JavascriptDebugType" nameIsGenerated="true" engineId="53e2f627-b1a7-4dfa-bfa7-5b83cc034776" uri="http://127.0.0.1">
       <method v="2" />
     </configuration>
+    <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/htdocs/views/login/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.test.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,7 +89,8 @@
       <workItem from="1685622809341" duration="481000" />
       <workItem from="1685623329853" duration="4680000" />
       <workItem from="1685641526185" duration="10931000" />
-      <workItem from="1685698207750" duration="10930000" />
+      <workItem from="1685698207750" duration="14644000" />
+      <workItem from="1685800764981" duration="5244000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1685654589459</created>
@@ -101,7 +99,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685654589459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Working Crypto api">
+      <created>1685733388951</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685733388951</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added favico">
+      <created>1685733463708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685733463708</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +123,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Working Crypto api" />
+    <MESSAGE value="added favico" />
+    <option name="LAST_COMMIT_MESSAGE" value="added favico" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
