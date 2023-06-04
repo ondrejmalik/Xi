@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca4ec763-391d-4cd7-826c-049676e90bc9" name="Changes" comment="Working dark mode">
+    <list default="true" id="ca4ec763-391d-4cd7-826c-049676e90bc9" name="Changes" comment="login margin and localStorage for dark mode">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.htdocs.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/adofai.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/adofai.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/core/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/core/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pong.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pong.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="13507" />
+    <option name="totalTimeSeconds" value="14585" />
     <option name="idleThresholdMs" value="2000" />
   </component>
   <component name="Git.Settings">
@@ -85,7 +88,9 @@
       <workItem from="1685623329853" duration="4680000" />
       <workItem from="1685641526185" duration="10931000" />
       <workItem from="1685698207750" duration="14644000" />
-      <workItem from="1685800764981" duration="6940000" />
+      <workItem from="1685800764981" duration="7340000" />
+      <workItem from="1685867242454" duration="2536000" />
+      <workItem from="1685914882312" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1685654589459</created>
@@ -115,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685806083909</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="login margin and localStorage for dark mode">
+      <created>1685808026528</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685808026528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +140,8 @@
     <MESSAGE value="Working Crypto api" />
     <MESSAGE value="added favico" />
     <MESSAGE value="Working dark mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working dark mode" />
+    <MESSAGE value="login margin and localStorage for dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="login margin and localStorage for dark mode" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

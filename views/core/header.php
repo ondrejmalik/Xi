@@ -14,7 +14,7 @@
           </title>
 
   	</head>
-	<body>
+	<body style = " padding: 0px;">
 		<?php echo $_SESSION['site'] ?>
 	  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 	  		<a class="navbar-brand" href="#">Navbar</a>
@@ -166,6 +166,4 @@
     }
     #login{
     margin: 5px;
-    }
-    
     </style>
